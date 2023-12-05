@@ -4,7 +4,7 @@
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
-  <definition class="org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition" plugin="workflow-cps@3812.vc3031a_b_a_c955">
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition" pl                                                                                                             ugin="workflow-cps@3812.vc3031a_b_a_c955">
     <scm class="hudson.plugins.git.GitSCM" plugin="git@5.2.1">
       <configVersion>2</configVersion>
       <userRemoteConfigs>
@@ -17,7 +17,7 @@
           <name>*/main</name>
         </hudson.plugins.git.BranchSpec>
       </branches>
-      <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+      <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfiguration                                                                                                             s>
       <submoduleCfg class="empty-list"/>
       <extensions/>
     </scm>
