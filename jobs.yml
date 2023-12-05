@@ -36,7 +36,7 @@
         user: "{{jenkins_user}}"
       vars:
         repo_name: parameter-store
-        auto_trigger: "true"
+        auto_trigger: "false"
 
     - name: Create Jenkins Job - Expense Terraform
       community.general.jenkins_job:
@@ -47,6 +47,6 @@
         user: "{{jenkins_user}}"
       vars:
         repo_name: expense-terraform
-        auto_trigger: "true"
+        auto_trigger: "false"
 
       
