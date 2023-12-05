@@ -4,7 +4,6 @@
     jenkins_url: http://172.31.44.107:8080
     jenkins_user: admin
     jenkins_password: "{{ lookup('aws_ssm', 'jenkins_password', region='us-east-1' ) }}"
-    file_name: Jenkinsfile
   tasks: 
     - name: Create Jenkins Job - Frontend
       community.general.jenkins_job:
