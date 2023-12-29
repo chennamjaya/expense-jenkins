@@ -34,7 +34,7 @@
         config: "{{ lookup('template', 'mjob.xml') }}"
         name: expense-schema-load
         password: "{{jenkins_password}}"
-        url: http://172.31.94.64:8080
+        url: "{{jenkins_url}}"
         user: "{{jenkins_user}}"
       vars:
         repo_name: expense-schema-load
